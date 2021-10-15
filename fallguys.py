@@ -9,3 +9,8 @@ d2 = [
     if (x % 3) != 0
     if (x % 2) == 0
 ]
+# Salvados
+if d2 == []:
+    print(0)
+else:
+    print(d.index(max(d2))+1)
