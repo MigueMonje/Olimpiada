@@ -13,7 +13,8 @@ sec = gensec(int(input("F1: ")),int(input("F2: ")))
 q = int(input("Q: "))
 conj = True
 for i in range(q):
-    if i % 2 == 0:
+    inp = int(input("F"))-1
+    if sec(inp) % 2 == 0:
         print("par")
     else:
         print("impar")
